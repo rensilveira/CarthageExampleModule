@@ -11,8 +11,10 @@ import Foundation
 public class Apple {
 
     var color: String
+    var size: Int
 
-    public init(color: String) {
+    public init(color: String, size: Int) {
         self.color = color
+        self.size = size
     }
 }
